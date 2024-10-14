@@ -18,12 +18,12 @@ The idea is that once we know where the model is suffering to classify the data,
 
 Note: High loss is either when the model is wrong and confideint or when the model is right and not confidient
 
-### [Classifying Bears](https://github.com/nemat-al/PracticalDL_fastai/blob/main/2.1.Classifying_bears_train_then_clean.ipynb)
+### [Classifying Cats and Dogs](https://github.com/nemat-al/PracticalDL_fastai/blob/main/2_2_dogs_cats_deployment.ipynb)
 How to put a model into production?
 - Find out the problem to solve, what data is needed and then gather the data.
 - Process the data and clean it, consider training the model before cleaning the data.
 - Training, testing, and adjusting if needed.
-- Deployment
+- Deployment: It's done using HuggingFace spaces and Gradio
 
 ### Sources
 [Course Link](https://course.fast.ai/)
