@@ -1,5 +1,5 @@
 # PracticalDL_fastai
-Hey, welcome, it's just me attending the Practical Deep Learning for Coders Course and coding alongside the course videos. 
+Hey, welcome, it's just me attending the Practical Deep Learning for Coders Course to review general ML concepts and coding alongside the course videos. 
 
 ### [1. Is it a bird?](https://github.com/nemat-al/PracticalDL_fastai/blob/main/1.Is_it_a_bird.ipynb)
 In the notebook we use duckduckgo_search library for creating a dataset of birds and forests images. Within the notebook and the corresponding course lesson, the library fast.ai is introduced as a library above Pytorch.
