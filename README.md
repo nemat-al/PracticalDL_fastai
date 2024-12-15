@@ -30,6 +30,14 @@ Few theoritical ideas:
 - Learning rate: finding the right learning rate is a compromise between the speed at which one finds the answer (small learning rate- slow changes through the training) and the possibility that we are actually going to get worse and worse (too big learnign rate).
 - Once you get close enough to the optimal values, all functions look like quadratics.
 - For data that has extreme distribution, for example money, think of the Titanic fair cost (&0$, 2$,..) we take the log of the values to get somethingmore evenly distributed.
+## lesson #4
+Few theoritical ideas: 
+- ULMfit algorithm: used a RNN langauge model, trained it on data from wikipedia to predict the next word. Then fine-tuned the model from the last step to predict the next word in IMBD reviews about movies. Then the model was fine-tuned to classify the reviews from IMBD as negative or positive.
+- Transformers: On the other hand, transformers were trained on data from wikipedia, the data had words deleted randomally from it and the transformers goal was to guess the missing word.
+- Underfitting: there's no much complexity in the model to match the data.
+- Overfitting: the model has got really good at fitting to the presented data, but if we try iy on more (not trained on) data from the same distribtion, it won't be close to the model.
+
+## lesson 5
 
 ### Sources
 [Course Link](https://course.fast.ai/)
